@@ -8,9 +8,9 @@
     
     <!-- Current Version -->
     <item>
-      <title>Version 1.5(2)</title>
+      <title>Version 1.5(3)</title>
       <description><![CDATA[
-        <h2>What's New in Version 1.5(2)</h2>
+        <h2>What's New in Version 1.5(3)</h2>
         <ul>
           <li><strong>Auto-Export Feature:</strong> Schedule automatic exports at regular intervals</li>
           <li><strong>iCloud Sync Detection:</strong> Enhanced detection and warnings for unsynced iCloud notes</li>
@@ -20,12 +20,12 @@
         </ul>
       ]]></description>
       <pubDate>Mon, 13 Jan 2025 10:00:00 +0000</pubDate>
-      <sparkle:version>2</sparkle:version>
+      <sparkle:version>3</sparkle:version>
       <sparkle:shortVersionString>1.5</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <enclosure 
         url="https://github.com/1dotaidev/apple-notes-exporter-app-releases/releases/download/macapp/Notes.Exporter.Pro.dmg"
-        sparkle:edSignature="hs7eGqtGPmmO/U3tcGTz3Y668GCss/Y64pGTPg3vsz46fpZpHOFaGEOsCEYHm0UDEuF6QWzLcKOaGIgoZEhVAg=="
+        sparkle:edSignature="4+sw4vl1yY3QKbgwKgZbR4YyzjhaOEAUuZQ3n/5msmZP+htdWd1QpmWiXR0uJZDIXbEAHKoHUetOz5cRq/PbCA=="
         type="application/octet-stream"
         length="3830440"/>
       <!-- 
