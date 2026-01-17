@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>Notes Exporter Pro Updates</title>
-    <link>https://github.com/1dotaidev/apple-notes-exporter-app-releases/releases/download/macapp/appcast.xml</link>
+    <link>https://raw.githubusercontent.com/1dotaidev/apple-notes-exporter-app-releases/main/appcast.xml</link>
     <description>Updates for Notes Exporter Pro</description>
     <language>en</language>
     
