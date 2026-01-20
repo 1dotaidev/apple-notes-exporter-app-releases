@@ -25,9 +25,9 @@
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <enclosure 
         url="https://github.com/1dotaidev/apple-notes-exporter-app-releases/releases/download/macapp/Notes.Exporter.Pro.dmg"
-        sparkle:edSignature="HeAwnmKpKA5vSE0MWgHqzNf/gDc5oR6wPO8cRvG/qloD3r2yqooUAmI+bwSKrGnfiZmapp2XeAaGIl77qAhTCA=="
+        sparkle:edSignature="2dIKHn9U5dvkh7qCZBBDqFHRznFNAdhbbtaWk8iSbl2gnVA6CzdTCyB6hQvFL3veJqK5i45rhgNKdqeoNj4rBw=="
         type="application/octet-stream"
-        length="3910940"/>
+        length="3912172"/>
       <!-- 
         NOTE: After signing your DMG with sign_update tool, replace:
         1. sparkle:edSignature with the actual signature
