@@ -7,6 +7,34 @@
     <language>en</language>
     
     <!-- Current Version -->
+     <item>
+      <title>Version 1.6(1)</title>
+      <description><![CDATA[
+        <h2>What's New in Version 1.5(4)</h2>
+        <ul>
+          <li><strong>Database based export option for icloud notes</strong> Export icloud based notes easily with Database based export</li>
+          <li><strong>iCloud Sync Detection Fix:</strong> Enhanced detection and warnings for unsynced iCloud notes</li>
+          <li><strong>Mega-Batching Improvements:</strong> Improved stability for exporting large note collections (500+ notes)</li>
+          <li><strong>Auto Updates Check</strong> Built-in update checker to keep your app up to date</li>
+          <li>Bug fixes and performance improvements</li>
+        </ul>
+      ]]></description>
+      <pubDate>Mon, 18 Jan 2026 10:00:00 +0000</pubDate>
+      <sparkle:version>1</sparkle:version>
+      <sparkle:shortVersionString>1.6</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+      <enclosure 
+        url="https://github.com/1dotaidev/apple-notes-exporter-app-releases/releases/download/macapp/Notes.Exporter.Pro.dmg"
+        sparkle:edSignature="HeAwnmKpKA5vSE0MWgHqzNf/gDc5oR6wPO8cRvG/qloD3r2yqooUAmI+bwSKrGnfiZmapp2XeAaGIl77qAhTCA=="
+        type="application/octet-stream"
+        length="3910940"/>
+      <!-- 
+        NOTE: After signing your DMG with sign_update tool, replace:
+        1. sparkle:edSignature with the actual signature
+        2. length with the actual file size in bytes
+        3. url with the actual download URL (update if different)
+      -->
+    </item>
     <item>
       <title>Version 1.5(4)</title>
       <description><![CDATA[
