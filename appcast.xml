@@ -19,15 +19,15 @@
           <li>Bug fixes and performance improvements</li>
         </ul>
       ]]></description>
-      <pubDate>2026-01-20 10:00:00 +0000</pubDate>
+      <pubDate>2026-01-23 10:00:00 +0000</pubDate>
       <sparkle:version>1</sparkle:version>
       <sparkle:shortVersionString>1.6</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <enclosure 
         url="https://github.com/1dotaidev/apple-notes-exporter-app-releases/releases/download/macapp/Notes.Exporter.Pro.dmg"
-        sparkle:edSignature="RuXY87CvfGvYAmefQByWAl2Un6mN2x8kN8xGem1wNfkt2AUaaKlM3aK+RB231EXIKdOI2tf6+xLyyCsxVJi/DA=="
+        sparkle:edSignature="cF2LacBShQaVOHb1233Tjepna6BMYhrVYdIiaQ48aPKV8T7ZLoytDhMdspKDaGoHvziJmhZIuD0fj3UYNdurCg=="
         type="application/octet-stream"
-        length="3919868"/>
+        length="7653464"/>
       <!-- 
         NOTE: After signing your DMG with sign_update tool, replace:
         1. sparkle:edSignature with the actual signature
