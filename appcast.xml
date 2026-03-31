@@ -32,10 +32,9 @@
         2. length with the actual file size in bytes
         3. url with the actual download URL (update if different)
       -->
-        <!-- FORCED MODE — removes Skip and Later buttons -->
-      <sparkle:criticalUpdate/>
+     
     </item>
-    
+    <sparkle:criticalUpdate>true</sparkle:criticalUpdate>
     <!-- 
     Template for future versions:
     
