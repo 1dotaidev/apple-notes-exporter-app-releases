@@ -18,7 +18,7 @@
 
     <item>
 
-      <title>Version 2.0 (5)</title>
+      <title>Version 2.1 (5)</title>
 
       <description><![CDATA[
 
@@ -40,7 +40,7 @@
 
       <sparkle:version>5</sparkle:version>
 
-      <sparkle:shortVersionString>2.5</sparkle:shortVersionString>
+      <sparkle:shortVersionString>2.1</sparkle:shortVersionString>
 
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
 
