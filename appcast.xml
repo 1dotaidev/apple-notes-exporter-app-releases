@@ -1,20 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"
-     xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"
-     xmlns:dc="http://purl.org/dc/elements/1.1/">
-
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>Notes Exporter Pro Updates</title>
     <link>https://raw.githubusercontent.com/1dotaidev/apple-notes-exporter-app-releases/main/appcast.xml</link>
     <description>Updates for Notes Exporter Pro</description>
     <language>en</language>
-
-    <item>
-      <title>Version 2.0 (6)</title>
-
-      <!-- 🔥 FORCE UPDATE -->
-      <sparkle:criticalUpdate/>
-
+    
+    <!-- Current Version -->
+     <item>
+      <title>Version 2.0 (3)</title>
       <description><![CDATA[
         <h2>What's New in Version 2.0</h2>
         <ul>
@@ -23,23 +17,47 @@
           <li><strong>General fixes</strong> Better attachment handling and polish throughout the export pipeline.</li>
         </ul>
       ]]></description>
-
-      <!-- ✅ CORRECT DATE FORMAT -->
-      <pubDate>Sat, 28 Mar 2026 09:01:09 +0000</pubDate>
-
-      <!-- ✅ MUST BE HIGHER THAN INSTALLED -->
-      <sparkle:version>6</sparkle:version>
+      <pubDate>2026-03-28 09:01:09 +0000</pubDate>
+      <sparkle:version>3</sparkle:version>
       <sparkle:shortVersionString>2.0</sparkle:shortVersionString>
-
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
-
       <enclosure 
         url="https://github.com/1dotaidev/apple-notes-exporter-app-releases/releases/download/macapp/Notes.Exporter.Pro.dmg"
         sparkle:edSignature="F/SJsGgvZ4gw0Nyl8wnDsp8kfAsyVzoQTecX2Wot2khK73I+GIwCDTxKQspaC6Ryg/RJJvNsWqaoxeEBlvJ4DQ=="
         type="application/octet-stream"
         length="21556789"/>
-        
+      <!-- 
+        NOTE: After signing your DMG with sign_update tool, replace:
+        1. sparkle:edSignature with the actual signature
+        2. length with the actual file size in bytes
+        3. url with the actual download URL (update if different)
+      -->
     </item>
-
+    
+    <!-- 
+    Template for future versions:
+    
+    <item>
+      <title>Version X.X</title>
+      <description><![CDATA[
+        <h2>What's New in Version X.X</h2>
+        <ul>
+          <li>New feature 1</li>
+          <li>New feature 2</li>
+          <li>Bug fixes</li>
+        </ul>
+      ]]></description>
+      <pubDate>Day, DD Mon YYYY HH:MM:SS +0000</pubDate>
+      <sparkle:version>BUILD_NUMBER</sparkle:version>
+      <sparkle:shortVersionString>X.X</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+      <enclosure 
+        url="https://github.com/Mytechshout/NotesExporterProMac/releases/download/vX.X/NotesExporterPro.dmg"
+        sparkle:edSignature="SIGNATURE_FROM_SIGN_UPDATE_TOOL"
+        type="application/octet-stream"
+        length="FILE_SIZE_IN_BYTES"/>
+    </item>
+    -->
+    
   </channel>
 </rss>
