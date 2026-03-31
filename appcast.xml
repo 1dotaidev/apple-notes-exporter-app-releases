@@ -18,7 +18,7 @@
 
     <item>
 
-      <title>Version 2.0 (4)</title>
+      <title>Version 2.0 (5)</title>
 
       <description><![CDATA[
 
@@ -38,7 +38,7 @@
 
       <pubDate>2026-03-28 09:01:09 +0000</pubDate>
 
-      <sparkle:version>4</sparkle:version>
+      <sparkle:version>5</sparkle:version>
 
       <sparkle:shortVersionString>2.0</sparkle:shortVersionString>
 
