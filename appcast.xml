@@ -1,63 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+
   <channel>
+
     <title>Notes Exporter Pro Updates</title>
+
     <link>https://raw.githubusercontent.com/1dotaidev/apple-notes-exporter-app-releases/main/appcast.xml</link>
+
     <description>Updates for Notes Exporter Pro</description>
+
     <language>en</language>
+
     
+
     <!-- Current Version -->
-     <item>
-      <title>Version 2.0 (3)</title>
-      <description><![CDATA[
-        <h2>What's New in Version 2.0</h2>
-        <ul>
-          <li><strong>Improved PDF exports</strong> Tables, checklists, and text spacing now mirror Apple Notes formatting even when using the direct database export path.</li>
-          <li><strong>Auto export reliability</strong> Scheduled exports use an isolated exporter instance to prevent conflicts, improving background stability.</li>
-          <li><strong>General fixes</strong> Better attachment handling and polish throughout the export pipeline.</li>
-        </ul>
-      ]]></description>
-      <pubDate>2026-03-28 09:01:09 +0000</pubDate>
-      <sparkle:version>3</sparkle:version>
-      <sparkle:shortVersionString>2.0</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
-      <enclosure 
-        url="https://github.com/1dotaidev/apple-notes-exporter-app-releases/releases/download/macapp/Notes.Exporter.Pro.dmg"
-        sparkle:edSignature="F/SJsGgvZ4gw0Nyl8wnDsp8kfAsyVzoQTecX2Wot2khK73I+GIwCDTxKQspaC6Ryg/RJJvNsWqaoxeEBlvJ4DQ=="
-        type="application/octet-stream"
-        length="21556789"/>
-      <!-- 
-        NOTE: After signing your DMG with sign_update tool, replace:
-        1. sparkle:edSignature with the actual signature
-        2. length with the actual file size in bytes
-        3. url with the actual download URL (update if different)
-      -->
-    </item>
-    
-    <!-- 
-    Template for future versions:
-    
+
     <item>
-      <title>Version X.X</title>
+
+      <title>Version 2.0 (4)</title>
+
       <description><![CDATA[
-        <h2>What's New in Version X.X</h2>
+
+        <h2>What's New in Version 2.0</h2>
+
         <ul>
-          <li>New feature 1</li>
-          <li>New feature 2</li>
-          <li>Bug fixes</li>
+
+          <li><strong>Improved PDF exports</strong> Tables, checklists, and text spacing now mirror Apple Notes formatting even when using the direct database export path.</li>
+
+          <li><strong>Auto export reliability</strong> Scheduled exports use an isolated exporter instance to prevent conflicts, improving background stability.</li>
+
+          <li><strong>General fixes</strong> Better attachment handling and polish throughout the export pipeline.</li>
+
         </ul>
+
       ]]></description>
-      <pubDate>Day, DD Mon YYYY HH:MM:SS +0000</pubDate>
-      <sparkle:version>BUILD_NUMBER</sparkle:version>
-      <sparkle:shortVersionString>X.X</sparkle:shortVersionString>
+
+      <pubDate>2026-03-28 09:01:09 +0000</pubDate>
+
+      <sparkle:version>4</sparkle:version>
+
+      <sparkle:shortVersionString>2.0</sparkle:shortVersionString>
+
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+
+      <!-- FORCED MODE — removes Skip and Later buttons -->
+
+      <sparkle:criticalUpdate/>
+
+      <!-- Optional: anyone below this version is always forced regardless -->
+
+      <sparkle:minimumAutoupdateVersion>2</sparkle:minimumAutoupdateVersion>
+
       <enclosure 
-        url="https://github.com/Mytechshout/NotesExporterProMac/releases/download/vX.X/NotesExporterPro.dmg"
-        sparkle:edSignature="SIGNATURE_FROM_SIGN_UPDATE_TOOL"
+
+        url="https://github.com/1dotaidev/apple-notes-exporter-app-releases/releases/download/macapp/Notes.Exporter.Pro.dmg"
+
+        sparkle:edSignature="F/SJsGgvZ4gw0Nyl8wnDsp8kfAsyVzoQTecX2Wot2khK73I+GIwCDTxKQspaC6Ryg/RJJvNsWqaoxeEBlvJ4DQ=="
+
         type="application/octet-stream"
-        length="FILE_SIZE_IN_BYTES"/>
+
+        length="21556789"/>
+
     </item>
-    -->
+
     
+
   </channel>
+
 </rss>
