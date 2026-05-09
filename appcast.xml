@@ -7,25 +7,52 @@
     <language>en</language>
     
     <!-- Current Version -->
-     <item>
-      <title>Version 2.0 (4)</title>
+    <item>
+      <title>Version 2.0 (5)</title>
       <description><![CDATA[
         <h2>What's New in Version 2.0</h2>
         <ul>
-          <li><strong>Improved exports</strong> Tables, checklists, and text spacing now mirror Apple Notes formatting even when using the direct database export path.</li>
-          <li><strong>Auto export reliability</strong></li>
+          <li><strong>Improved PDF exports</strong> Tables, checklists, and text spacing now mirror Apple Notes formatting even when using the direct database export path.</li>
+          <li><strong>Auto export reliability</strong> Scheduled exports use an isolated exporter instance to prevent conflicts, improving background stability.</li>
           <li><strong>General fixes</strong> Better attachment handling and polish throughout the export pipeline.</li>
         </ul>
       ]]></description>
-      <pubDate>2026-04-20 09:01:09 +0000</pubDate>
-      <sparkle:version>4</sparkle:version>
+      <pubDate>2026-05-09 08:02:04 +0000</pubDate>
+      <sparkle:version>5</sparkle:version>
       <sparkle:shortVersionString>2.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <enclosure 
         url="https://github.com/1dotaidev/apple-notes-exporter-app-releases/releases/download/macapp/Notes.Exporter.Pro.dmg"
-        sparkle:edSignature="brHXA2Dj21H6aATQ5deiO8PI00XApVNChScPyKcch8GPYKzqxqX5wnfdmzQYBD0tvLASXpNuQVZ8miuVIPcdAQ=="
+        sparkle:edSignature="+7tHRKsI2GS13DZrl6eounx6FZbbClKKf6ix3N9Pn2VTsAi3xpurIAQgONgUuqyXWRAciLwDSTsizXhZ5zspCQ=="
         type="application/octet-stream"
-        length="21556789"/>
+        length="25304626"/>
+      <!-- 
+        NOTE: After signing your DMG with sign_update tool, replace:
+        1. sparkle:edSignature with the actual signature
+        2. length with the actual file size in bytes
+        3. url with the actual download URL (update if different)
+      -->
+    </item>
+    
+     <item>
+      <title>Version 2.0 (5)</title>
+      <description><![CDATA[
+        <h2>What's New in Version 2.0</h2>
+        <ul>
+          <li><strong>Improved PDF exports</strong> Tables, checklists, and text spacing now mirror Apple Notes formatting even when using the direct database export path.</li>
+          <li><strong>Auto export reliability</strong> Scheduled exports use an isolated exporter instance to prevent conflicts, improving background stability.</li>
+          <li><strong>General fixes</strong> Better attachment handling and polish throughout the export pipeline.</li>
+        </ul>
+      ]]></description>
+      <pubDate>2026-05-09 08:02:04 +0000</pubDate>
+      <sparkle:version>5</sparkle:version>
+      <sparkle:shortVersionString>2.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+      <enclosure 
+        url="https://github.com/1dotaidev/apple-notes-exporter-app-releases/releases/download/macapp/Notes.Exporter.Pro.dmg"
+        sparkle:edSignature="+7tHRKsI2GS13DZrl6eounx6FZbbClKKf6ix3N9Pn2VTsAi3xpurIAQgONgUuqyXWRAciLwDSTsizXhZ5zspCQ=="
+        type="application/octet-stream"
+        length="25304626"/>
       <!-- 
         NOTE: After signing your DMG with sign_update tool, replace:
         1. sparkle:edSignature with the actual signature
