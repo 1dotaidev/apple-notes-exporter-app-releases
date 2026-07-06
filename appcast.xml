@@ -8,25 +8,27 @@
     
     <!-- Current Version -->
     <item>
-      <title>Version 2.1 (7)</title>
+      <title>Version 2.2 (8)</title>
       <description><![CDATA[
-        <h2>What's New in Version 2.1 (7)</h2>
+        <h2>What's New in Version 2.2 (8)</h2>
         <ul>
-          <li><strong>Faster Exports</strong></li>
-          <li><strong>Better reliability</strong></li>
-          <li><strong>Bug fixes</strong> Better attachment handling and polish throughout the export pipeline.</li>
+          <li><strong>Fixed crashes</strong> for a more stable, reliable export experience.</li>
+          <li><strong>Handwritten notes</strong> Apple Pencil drawings now export correctly.</li>
+          <li><strong>Attachment names</strong> are preserved when exporting.</li>
+          <li><strong>Cleaner notes list</strong> and interface polish.</li>
+          <li><strong>Other fixes</strong> and behind-the-scenes improvements.</li>
         </ul>
       ]]></description>
-      <pubDate>2026-05-15 08:34:34 +0000</pubDate>
-      <sparkle:version>7</sparkle:version>
-      <sparkle:shortVersionString>2.1</sparkle:shortVersionString>
+      <pubDate>2026-07-06 16:58:31 +0000</pubDate>
+      <sparkle:version>8</sparkle:version>
+      <sparkle:shortVersionString>2.2</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <sparkle:criticalUpdate></sparkle:criticalUpdate>
       <enclosure 
         url="https://github.com/1dotaidev/apple-notes-exporter-app-releases/releases/download/macapp/Notes.Exporter.Pro.dmg"
-        sparkle:edSignature="eUnf6aymIx7rmv3QH3ZZa7wilBodQ8Ldd0qbdNb1lGLMm6NsVVfpMg7T4t2bap1kjBMCsU4rDj8Su06V/BztDA=="
+        sparkle:edSignature="ImegR4thqkoQfg0x8TV9ZvtHQWYD89O9by9oqRjQZChXm1Cbj8YHGeRBEVkkGz4eG8U+AHTtDQO4HLT5AANEAg=="
         type="application/octet-stream"
-        length="25640498"/>
+        length="9612688"/>
       <!-- 
         NOTE: After signing your DMG with sign_update tool, replace:
         1. sparkle:edSignature with the actual signature
