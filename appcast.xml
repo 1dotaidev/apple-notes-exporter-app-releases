@@ -8,27 +8,26 @@
     
     <!-- Current Version -->
     <item>
-      <title>Version 2.2 (8)</title>
+      <title>Version 2.3 (9)</title>
       <description><![CDATA[
-        <h2>What's New in Version 2.2 (8)</h2>
+        <h2>What's New in Version 2.3 (9)</h2>
         <ul>
-          <li><strong>Fixed crashes</strong> for a more stable, reliable export experience.</li>
-          <li><strong>Handwritten notes</strong> Apple Pencil drawings now export correctly.</li>
-          <li><strong>Attachment names</strong> are preserved when exporting.</li>
-          <li><strong>Cleaner notes list</strong> and interface polish.</li>
-          <li><strong>Other fixes</strong> and behind-the-scenes improvements.</li>
+          <li><strong>Refreshed design</strong> A cleaner activation screen and a tidier, easier-to-use home page.</li>
+          <li><strong>Smarter folder selection</strong> Choosing a folder now includes all of its notes right away.</li>
+          <li><strong>Better exports</strong> Fixed code blocks in Markdown and heading/formatting issues in text exports.</li>
+          <li><strong>Polish &amp; fixes</strong> throughout the app.</li>
         </ul>
       ]]></description>
-      <pubDate>2026-07-06 16:58:31 +0000</pubDate>
-      <sparkle:version>8</sparkle:version>
-      <sparkle:shortVersionString>2.2</sparkle:shortVersionString>
+      <pubDate>2026-07-22 11:41:54 +0000</pubDate>
+      <sparkle:version>9</sparkle:version>
+      <sparkle:shortVersionString>2.3</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <sparkle:criticalUpdate></sparkle:criticalUpdate>
       <enclosure 
         url="https://github.com/1dotaidev/apple-notes-exporter-app-releases/releases/download/macapp/Notes.Exporter.Pro.dmg"
-        sparkle:edSignature="ImegR4thqkoQfg0x8TV9ZvtHQWYD89O9by9oqRjQZChXm1Cbj8YHGeRBEVkkGz4eG8U+AHTtDQO4HLT5AANEAg=="
+        sparkle:edSignature="VsRUDVAypQbcx0hZ8z/eT/NK8BqKA2zTmQgDDhfiQd19vBgf1EaVYOmTLRzJkV2KP2EETXPLYdnSh0kGqKX3CQ=="
         type="application/octet-stream"
-        length="9612688"/>
+        length="9627486"/>
       <!-- 
         NOTE: After signing your DMG with sign_update tool, replace:
         1. sparkle:edSignature with the actual signature
