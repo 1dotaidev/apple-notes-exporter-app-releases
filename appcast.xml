@@ -7,6 +7,35 @@
     <language>en</language>
     
     <!-- Current Version -->
+        <item>
+      <title>Version 2.6 (13)</title>
+      <description><![CDATA[
+        <h2>What's New in Version 2.6</h2>
+        <ul>
+          <li><strong>Attachments stay linked to their notes</strong> HTML and Markdown exports now include a working link to every attachment, with its real name. Links with spaces, &amp; or # in the filename open correctly.</li>
+          <li><strong>Fixed a crash when exporting from the database</strong> Exporting a larger library could quit the app unexpectedly.</li>
+          <li><strong>No more missing attachments</strong> The AppleScript method kept only some attachments and silently skipped the rest. It now saves every type.</li>
+          <li><strong>Notes that previously wouldn't open</strong> Some older notes exported as "Unable to extract note content". They now export normally.</li>
+          <li><strong>Password-protected notes are shown</strong> Locked notes are marked in the list and in the folder they belong to, and explain themselves in exports instead of appearing empty.</li>
+          <li><strong>PDF exports match Apple Notes</strong> Same page size, margins and text size — plus no blank final page, and the title no longer appears twice.</li>
+          <li><strong>Markdown keeps its formatting</strong> Monospaced blocks stay monospaced, and images keep their original names.</li>
+          <li><strong>Honest export summaries</strong> An export that could not save something now says so, rather than reporting success.</li>
+          <li><strong>Auto export reliability</strong> Failures are reported instead of announced as successes, scheduled runs no longer repeat, and an export that finds nothing is treated as a problem rather than a completed backup.</li>
+          <li><strong>Your licence survives a reset</strong> Resetting app data no longer signs you out, and you can now release a licence yourself before moving to a new Mac.</li>
+        </ul>
+      ]]></description>
+      <pubDate>2026-08-22 11:36:50 +0000</pubDate>
+      <sparkle:version>13</sparkle:version>
+      <sparkle:shortVersionString>2.6</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+      <sparkle:criticalUpdate></sparkle:criticalUpdate>
+      <enclosure
+        url="https://github.com/1dotaidev/apple-notes-exporter-app-releases/releases/download/macapp/Notes.Exporter.Pro.dmg"
+        sparkle:edSignature="RPLiD9xA6kevs/ZBAY+qGtbhFp/acwfttn+pKb9npz6GjbWjjwvL1UY37MkgS1ON4+tfGfLnlkNQXG+a4R9OAA=="
+        type="application/octet-stream"
+        length="9878434"/>
+    </item>
+
     <item>
       <title>Version 2.3 (9)</title>
       <description><![CDATA[
