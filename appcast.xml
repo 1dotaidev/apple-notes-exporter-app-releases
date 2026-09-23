@@ -5,9 +5,40 @@
     <link>https://raw.githubusercontent.com/1dotaidev/apple-notes-exporter-app-releases/main/appcast.xml</link>
     <description>Updates for Notes Exporter Pro</description>
     <language>en</language>
-    
+
     <!-- Current Version -->
-        <item>
+    <item>
+      <title>Version 2.7 (17)</title>
+      <description><![CDATA[
+        <h2>What's New in Version 2.7</h2>
+        <ul>
+          <li><strong>Auto Export, rebuilt</strong> Setting up a schedule is now four short steps, and once it is running you get a dashboard: when the next exports are due, what each run did, and every setting in one place. Run one early with Export Now.</li>
+          <li><strong>Backups that match your notes</strong> A backup now mirrors Apple Notes by default — only what changed is rewritten, and a note you delete leaves the backup. Prefer a dated copy of every run? Keep every backup instead.</li>
+          <li><strong>Five new formats</strong> Obsidian, Evernote (ENEX), CSV, XML and OPML. The Obsidian vault arrives with front matter and working [[wikilinks]]; CSV is one spreadsheet with a row per note. EPUB now produces a proper book, one chapter per note.</li>
+          <li><strong>Links between notes keep working</strong> A link to another note now opens that note's exported file, or its section in a combined document. Web links survive in Markdown and Text exports, which previously kept the words and lost the address.</li>
+          <li><strong>Recently Deleted stays out</strong> Deleted notes are no longer exported as an ordinary folder. Switch on "Include Recently Deleted" if you want them.</li>
+          <li><strong>Handwritten notes export their artwork</strong> Apple Pencil drawings and scanned pages now export as the drawing itself rather than a placeholder, and folders show how many handwritten notes they hold.</li>
+          <li><strong>Tables keep their shape</strong> Columns come out in the order they were written, in every format that has tables.</li>
+          <li><strong>Large libraries export without filling the disk</strong> A library of big PDF attachments could push a PDF export past 15 GB. It no longer does.</li>
+          <li><strong>One document, when you want one</strong> Any export can be written as a single file with a table of contents instead of a file per note.</li>
+          <li><strong>Exports that tell you the truth</strong> A run that could not save something names the note it belonged to, and no longer reports problems it did not have.</li>
+          <li><strong>Back up to storage you own</strong> Send a copy of every export to your own S3-compatible bucket — AWS, Cloudflare R2, Backblaze B2, Wasabi or MinIO. Your bucket, your credentials, your bill; nothing goes to our servers. Off until you set it up, with a Test Connection button that checks it before you rely on it.</li>
+          <li><strong>Notifications</strong> Scheduled exports run with nobody watching, so the app now asks to notify you, and says plainly when notifications are switched off.</li>
+        </ul>
+      ]]></description>
+      <pubDate>2026-09-23 11:59:20 +0000</pubDate>
+      <sparkle:version>17</sparkle:version>
+      <sparkle:shortVersionString>2.7</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+      <sparkle:criticalUpdate></sparkle:criticalUpdate>
+      <enclosure
+        url="https://github.com/1dotaidev/apple-notes-exporter-app-releases/releases/download/v2.7/Notes.Exporter.Pro.dmg"
+        sparkle:edSignature="yQ8PimQUePP0361I1mgLwc5GprKKkonRYzZLXu7ScoPml4s6FEXoMa52utggzRhq6/zYsF7mBPUa2eNW7f4XAg=="
+        type="application/octet-stream"
+        length="10613016"/>
+    </item>
+
+    <item>
       <title>Version 2.6 (13)</title>
       <description><![CDATA[
         <h2>What's New in Version 2.6</h2>
@@ -51,21 +82,14 @@
       <sparkle:version>9</sparkle:version>
       <sparkle:shortVersionString>2.3</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
-      <sparkle:criticalUpdate></sparkle:criticalUpdate>
-      <enclosure 
+      <enclosure
         url="https://github.com/1dotaidev/apple-notes-exporter-app-releases/releases/download/macapp/Notes.Exporter.Pro.dmg"
         sparkle:edSignature="VsRUDVAypQbcx0hZ8z/eT/NK8BqKA2zTmQgDDhfiQd19vBgf1EaVYOmTLRzJkV2KP2EETXPLYdnSh0kGqKX3CQ=="
         type="application/octet-stream"
         length="9627486"/>
-      <!-- 
-        NOTE: After signing your DMG with sign_update tool, replace:
-        1. sparkle:edSignature with the actual signature
-        2. length with the actual file size in bytes
-        3. url with the actual download URL (update if different)
-      -->
     </item>
-    
-     <item>
+
+    <item>
       <title>Version 2.0 (5)</title>
       <description><![CDATA[
         <h2>What's New in Version 2.0</h2>
@@ -79,43 +103,33 @@
       <sparkle:version>5</sparkle:version>
       <sparkle:shortVersionString>2.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
-      <enclosure 
+      <enclosure
         url="https://github.com/1dotaidev/apple-notes-exporter-app-releases/releases/download/macapp/Notes.Exporter.Pro.dmg"
         sparkle:edSignature="+7tHRKsI2GS13DZrl6eounx6FZbbClKKf6ix3N9Pn2VTsAi3xpurIAQgONgUuqyXWRAciLwDSTsizXhZ5zspCQ=="
         type="application/octet-stream"
         length="25304626"/>
-      <!-- 
-        NOTE: After signing your DMG with sign_update tool, replace:
-        1. sparkle:edSignature with the actual signature
-        2. length with the actual file size in bytes
-        3. url with the actual download URL (update if different)
-      -->
     </item>
-    
-    <!-- 
-    Template for future versions:
-    
+
+    <!--
+    Template for future versions — keep this commented out.
+
     <item>
       <title>Version X.X</title>
       <description><![CDATA[
         <h2>What's New in Version X.X</h2>
-        <ul>
-          <li>New feature 1</li>
-          <li>New feature 2</li>
-          <li>Bug fixes</li>
-        </ul>
+        <ul><li>New feature</li></ul>
       ]]></description>
       <pubDate>Day, DD Mon YYYY HH:MM:SS +0000</pubDate>
       <sparkle:version>BUILD_NUMBER</sparkle:version>
       <sparkle:shortVersionString>X.X</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
-      <enclosure 
-        url="https://github.com/Mytechshout/NotesExporterProMac/releases/download/vX.X/NotesExporterPro.dmg"
+      <enclosure
+        url="https://github.com/1dotaidev/apple-notes-exporter-app-releases/releases/download/macapp/Notes.Exporter.Pro.dmg"
         sparkle:edSignature="SIGNATURE_FROM_SIGN_UPDATE_TOOL"
         type="application/octet-stream"
         length="FILE_SIZE_IN_BYTES"/>
     </item>
     -->
-    
+
   </channel>
 </rss>
