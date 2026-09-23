@@ -26,16 +26,16 @@
           <li><strong>Notifications</strong> Scheduled exports run with nobody watching, so the app now asks to notify you, and says plainly when notifications are switched off.</li>
         </ul>
       ]]></description>
-      <pubDate>2026-09-23 11:59:20 +0000</pubDate>
+      <pubDate>2026-09-23 12:30:03 +0000</pubDate>
       <sparkle:version>17</sparkle:version>
       <sparkle:shortVersionString>2.7</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <sparkle:criticalUpdate></sparkle:criticalUpdate>
       <enclosure
         url="https://github.com/1dotaidev/apple-notes-exporter-app-releases/releases/download/v2.7/Notes.Exporter.Pro.dmg"
-        sparkle:edSignature="yQ8PimQUePP0361I1mgLwc5GprKKkonRYzZLXu7ScoPml4s6FEXoMa52utggzRhq6/zYsF7mBPUa2eNW7f4XAg=="
+        sparkle:edSignature="8IxNMMmAOwgi8ZBQhquPbrWEw6sUZ+T+q/aQjidpc9mphBRLC/RPCCJQieVu1M93HryVBsj9aurbt4gWdfRQCg=="
         type="application/octet-stream"
-        length="10613016"/>
+        length="10609146"/>
     </item>
 
     <item>
