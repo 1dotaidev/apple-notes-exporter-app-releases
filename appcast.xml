@@ -8,6 +8,36 @@
 
     <!-- Current Version -->
     <item>
+      <title>Version 2.8 (18)</title>
+      <description><![CDATA[
+        <h2>What's New in Version 2.8</h2>
+        <ul>
+          <li><strong>Folders that share a name export in full</strong> When two folders had the same name — a subfolder named like a top-level folder, or "Notes" in both iCloud and On My Mac — only one of them was exported. Now both are, together, as the list shows them, and Auto Export no longer stops with "Some notes could not be read" because of it.</li>
+          <li><strong>PDFs that look like Apple Notes</strong> Lines are no longer cut in half or repeated where a page ends. A title set in Notes' Title style is that size in the PDF, spacing matches Apple's own export, checklists show Notes' ticked circles, and links, tags and mentions keep their colour.</li>
+          <li><strong>Every photo shows as a photo</strong> Pictures saved as AVIF or WebP, common for images saved from the web, appeared as file icons instead of the picture. They now appear in every format, and Word documents convert HEIC, WebP and AVIF so Word can show them.</li>
+          <li><strong>PDFs inside notes show their pages</strong> A PDF shown inline in a note came out as a broken image. Its pages now appear in the export.</li>
+          <li><strong>Tags and mentions stay where you typed them</strong> #tags and @mentions no longer break onto lines of their own, and a heading that contains a link is no longer split in two.</li>
+          <li><strong>Cleaner Markdown and plain text</strong> Plain text no longer contains stray HTML tags or codes like &amp;amp;, tables come out as tables instead of run-together words, checklists keep their ticks and numbered lists keep their numbers.</li>
+          <li><strong>Word documents that always open</strong> A note containing an invisible control character could produce a Word file that would not open. It no longer does.</li>
+          <li><strong>Folders open smoothly</strong> Opening a large folder no longer shows an empty list or closes the folder again. Its notes appear as they load, and ticking them responds instantly.</li>
+          <li><strong>Exports say what they could not show</strong> If an attachment was saved but could not be drawn in the finished file, the export now names it instead of reporting success.</li>
+          <li><strong>Important updates come first</strong> When a future update fixes something that affects your exports, exporting and scheduled backups pause until it is installed, with an Install Update button right there. Your notes stay safe in Apple Notes in the meantime.</li>
+        </ul>
+        <p><strong>Updating from 2.6?</strong> Version 2.7 also brought a rebuilt Auto Export with a dashboard, backups that mirror your notes, Obsidian, Evernote, CSV, XML and OPML exports, links between notes that keep working, and backups to your own S3-compatible storage.</p>
+      ]]></description>
+      <pubDate>2026-10-01 08:42:28 +0000</pubDate>
+      <sparkle:version>18</sparkle:version>
+      <sparkle:shortVersionString>2.8</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+      <sparkle:criticalUpdate></sparkle:criticalUpdate>
+      <enclosure
+        url="https://github.com/1dotaidev/apple-notes-exporter-app-releases/releases/download/v2.8/Notes.Exporter.Pro.dmg"
+        sparkle:edSignature="LNjVkWeM0RfLXcdeFcGD7rmNWVB4XCUp5E2f7oK+ECru8+2u1VgIP7LIGUiPkhM/co5uOdR4piD07kDyX6cMAg=="
+        type="application/octet-stream"
+        length="10632175"/>
+    </item>
+
+    <item>
       <title>Version 2.7 (17)</title>
       <description><![CDATA[
         <h2>What's New in Version 2.7</h2>
