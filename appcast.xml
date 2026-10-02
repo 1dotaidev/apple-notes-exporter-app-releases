@@ -8,6 +8,30 @@
 
     <!-- Current Version -->
     <item>
+      <title>Version 2.9 (19)</title>
+      <description><![CDATA[
+        <h2>What's New in Version 2.9</h2>
+        <ul>
+          <li><strong>PDF exports no longer run away</strong> In 2.8, exporting some notes to PDF could produce hundreds of blank pages and a file of several gigabytes, with the app frozen while it was written — most often during scheduled Auto Export. Each page now holds only its own part of the note, and the same notes export in seconds at their normal size.</li>
+          <li><strong>The app stays responsive while it makes PDFs</strong> Pages are put together in the background, so the window keeps working during a long export.</li>
+          <li><strong>Smaller PDFs</strong> Every image is stored once, rather than on every page of the note.</li>
+        </ul>
+        <p>If an export from 2.8 left a very large folder in your export location, it is safe to delete it — your notes are untouched in Apple Notes.</p>
+        <p><strong>Updating from an earlier version?</strong> 2.8 also brought: folders that share a name export in full; PDFs that look like Apple Notes' own, with no lines cut or repeated at page breaks; AVIF and WebP photos shown as photos; PDFs inside notes shown page by page; tags and mentions kept in place; cleaner Markdown and plain text; and Word documents that always open. Version 2.7 brought a rebuilt Auto Export, backups that mirror your notes, five new export formats and backups to your own S3-compatible storage.</p>
+      ]]></description>
+      <pubDate>2026-10-02 07:21:56 +0000</pubDate>
+      <sparkle:version>19</sparkle:version>
+      <sparkle:shortVersionString>2.9</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+      <sparkle:criticalUpdate></sparkle:criticalUpdate>
+      <enclosure
+        url="https://github.com/1dotaidev/apple-notes-exporter-app-releases/releases/download/v2.9/Notes.Exporter.Pro.dmg"
+        sparkle:edSignature="Iz5Tail8unkalfI2Mpdvz3bQm0Sop//H2qiWsu04quq0ItIyS3RTaLkHdiC/Y9f+fQcMH3MIT94dWye77b0hDg=="
+        type="application/octet-stream"
+        length="10638149"/>
+    </item>
+
+    <item>
       <title>Version 2.8 (18)</title>
       <description><![CDATA[
         <h2>What's New in Version 2.8</h2>
