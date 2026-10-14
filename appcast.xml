@@ -8,6 +8,30 @@
 
     <!-- Current Version -->
     <item>
+      <title>Version 2.9.1 (20)</title>
+      <description><![CDATA[
+        <h2>What's New in Version 2.9.1</h2>
+        <ul>
+          <li><strong>PDF exports no longer get stuck</strong> Exporting notes with videos or voice recordings to PDF could stop on one note and never finish. Videos and recordings now appear in the PDF as a card with their name, and the file itself is saved beside the PDF, as before.</li>
+          <li><strong>No export waits forever</strong> If a note cannot be made into a PDF within three minutes, it is skipped with a reason and the rest of the export carries on.</li>
+          <li><strong>RTF exports with videos stay responsive</strong> Videos and recordings no longer slow the app while it writes an RTF file.</li>
+          <li><strong>Steadier backups to your own storage</strong> A storage provider that answers a listing request incorrectly can no longer keep a backup running indefinitely.</li>
+        </ul>
+        <p><strong>Updating from an earlier version?</strong> 2.9 fixed PDF exports that could grow to thousands of blank pages, and 2.8 brought folders that share a name exporting in full, PDFs that look like Apple Notes' own, AVIF and WebP photos shown as photos, cleaner Markdown and plain text, and Word documents that always open.</p>
+      ]]></description>
+      <pubDate>2026-10-14 08:32:26 +0000</pubDate>
+      <sparkle:version>20</sparkle:version>
+      <sparkle:shortVersionString>2.9.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+      <sparkle:criticalUpdate></sparkle:criticalUpdate>
+      <enclosure
+        url="https://github.com/1dotaidev/apple-notes-exporter-app-releases/releases/download/v2.9.1/Notes.Exporter.Pro.dmg"
+        sparkle:edSignature="HYnA2VBRjFLqNgQ/RR0+QCYkItbd9xo/Bf7FmnMyY5LECWvi2dd2efAZkuJ9B9BCIkNLuv3zSFDUHUJHc/rEBg=="
+        type="application/octet-stream"
+        length="10635890"/>
+    </item>
+
+    <item>
       <title>Version 2.9 (19)</title>
       <description><![CDATA[
         <h2>What's New in Version 2.9</h2>
