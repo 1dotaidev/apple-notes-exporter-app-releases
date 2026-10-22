@@ -8,6 +8,27 @@
 
     <!-- Current Version -->
     <item>
+      <title>Version 2.10 (21)</title>
+      <description><![CDATA[
+        <h2>What's New in Version 2.10</h2>
+        <ul>
+          <li><strong>Folders inside folders</strong> Folders you have nested in Apple Notes now appear nested in the app, and a folder's count includes the notes in its subfolders. Selecting a folder selects the folders inside it, and exports recreate the same structure as folders on disk. A folder that held only subfolders used to be missing from the list.</li>
+          <li><strong>Images in RTF exports</strong> RTF files now include the note's photos, drawings and scans where they appear in the note, along with the pages of attached PDFs. Open them in Pages, Word, LibreOffice or Google Docs; TextEdit does not show pictures in RTF files.</li>
+        </ul>
+        <p><strong>Updating from an earlier version?</strong> 2.9.1 stopped PDF exports getting stuck on notes with videos or recordings, and 2.9 fixed PDF exports that could grow to thousands of blank pages.</p>
+      ]]></description>
+      <pubDate>2026-10-22 10:44:36 +0000</pubDate>
+      <sparkle:version>21</sparkle:version>
+      <sparkle:shortVersionString>2.10</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://github.com/1dotaidev/apple-notes-exporter-app-releases/releases/download/v2.10/Notes.Exporter.Pro.dmg"
+        sparkle:edSignature="LzxY9o/ZcGH8n6SAwV4Lea0EBXwV6yabYjGAkhmoqQJ8JVMT2URLyqb3WlPjuPiNDi4BRWq2xrC7kL+PxnZ2Dg=="
+        type="application/octet-stream"
+        length="10678837"/>
+    </item>
+
+    <item>
       <title>Version 2.9.1 (20)</title>
       <description><![CDATA[
         <h2>What's New in Version 2.9.1</h2>
